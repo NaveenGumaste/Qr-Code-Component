@@ -10,7 +10,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   
 -  My Process:
   - [Built with] ( "HTML5 & Vanilla CSS ")
-  - [What I learned] ( "Grid layouts" , "Responsive Designing for diff screens" )
 
 ## Overview
 
@@ -26,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [3-Column Card Preview](https://www.frontendmentor.io/solutions/responsive-3columnpreviewcardcomponent-GGfGaBqbs)
-- Live Site URL: [LIve Webpage](https://monks3columnpreviewcard.netlify.app/)
+- Solution URL: [Qr Code Component](https://www.frontendmentor.io/solutions/qr-code-component-with-simple-html5-and-css3-lebxOmzf0)
+- Live Site URL: [Qr Card](https://monks-qr-code.netlify.app/)
 
 ## My process
 
