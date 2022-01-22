@@ -1,0 +1,89 @@
+/*Fonts of weight"400 ,700" imported From => googlefonts.com*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/*Colors Needed are converter to Variable for reusability in the project */
+
+:root {
+	--White: hsl(0, 0%, 100%);
+	--Light-gray: hsl(212, 45%, 89%);
+	--Grayish-blue: hsl(220, 15%, 55%);
+	--Dark-blue: hsl(218, 44%, 22%);
+}
+
+/* Css reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img {
+	display: flex;
+	max-width: 100%;
+	border-radius: 0.7rem;
+	margin-bottom: 1rem;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+}
+body {
+	font-family: "Outfit", sans-serif;
+	font-size: 0.9375rem;
+	height: calc(100vh-1px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--Light-gray);
+}
+
+/* styling for desktop 1440px */
+
+.wrapper {
+	background-color: var(--White);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10rem 10rem 10rem 10rem;
+	padding: 1.2rem;
+	max-width: 23rem;
+	border-radius: 1rem;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+}
+
+.wrapper h1 {
+	color: var(--Dark-blue);
+	text-align: center;
+	font-size: 1.7rem;
+	font-weight: 700;
+	padding: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.wrapper p {
+	color: var(--Grayish-blue);
+	text-align: center;
+	font-size: 1.22rem;
+	font-weight: 400;
+	padding: 0rem 0.5rem 1.5rem 0.5rem;
+}
+
+
+@media only screen and (max-width: 375px) {
+	.wrapper{
+		width: 20rem; 
+	}
+	.img {
+		display: flex;
+		max-width: 100%;
+		border-radius: 0.7rem;
+		margin-bottom: 1rem;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+	}
+	.wrapper h1 {
+		font-size: 1.5rem;
+		padding: 0.2rem;
+	}
+
+	.wrapper p{
+		font-size: 1rem;
+	}
+}
